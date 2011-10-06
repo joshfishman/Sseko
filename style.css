@@ -136,7 +136,11 @@ button {width: auto; overflow: visible;}
 -------------------------------------------------------------------------------*/
 
 /* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
-body { font: 14px "Droid Serif", serif;}
+body { font: 14px "Droid Serif", serif
+body p {
+	margin: 15px;
+	
+}
 
 /* Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
 @font-face {
