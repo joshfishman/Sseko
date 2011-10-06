@@ -201,9 +201,27 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 .entry-meta a {text-decoration:none; color:#cc9966; text-transform:uppercase;}
 
 .sidebar{background: url('images/slidersidebar.jpg');overflow:hidden; background-repeat: repeat; padding: 10px 0px 10px 0px;}
-.sidebar ul {padding:10px;}
-.sidebar h2 {padding:3px 5px 3px 5px;}
-.sidebar a{text-decoration:none; color:#C96;}
+.sidebar ul {padding:10px;
+			line-height:180%;
+			}
+.sidebar h2 {padding:3px 5px 3px 5px;
+    font-style: italic;
+	color: #535253;
+	font-weight: normal;
+	font-size: 20px;
+	border-bottom: 1px dotted #898989;
+	margin-left: 10px;
+	margin-top:20px;
+}
+.sidebar h2:first-of-type{
+	margin-top:none;
+}
+.sidebar p {font-size: 11pt; color: #999; font-weight: 100; font-style: italic;}
+
+.sidebar p + a {
+	margin-left: 100px;
+	
+}
 #meta {}
 .postmetadata {}
 
