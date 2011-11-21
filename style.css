@@ -190,6 +190,7 @@ body{background-image:url('images/bg.jpg');-webkit-background-size:100%; /*Saf3-
 .description {padding-top: 15px;}
 .menu{float:right;}
 .post {}
+hr.grid_12{margin-left: 0px;}
  li.font{  font: 22px "Droid Serif Italic", serif; color:#b27557; text-decoration: none; font-style: italic; }
 .social ul {text-align:center;}
 .social li{display: inline; padding: 2px ;}
